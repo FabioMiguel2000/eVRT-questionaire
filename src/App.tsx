@@ -120,6 +120,28 @@ function App() {
             <img className="app__image" src={false_positives_2} alt="" />
           </div>
         </div>
+        <div>
+          <h2>Participate in Our Study on Visual Regression Testing</h2>
+          <div className="app__content-wrapper">
+            <p>
+              This survey aims to collect data on current practices in visual
+              testing of applications. Your responses will help understand the
+              adoption, effectiveness, and perception of Visual Regression
+              Testing (VRT) tools in the industry. This survey should take
+              approximately 5-10 minutes to complete. All responses will be kept
+              confidential and used only for academic purposes.
+            </p>
+            <a
+              className="app__survey-link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdDQvZhmvPtiNd-uHi3CvVMs5nEwklO71upTW1rYTIYPiboEA/viewform"
+            >
+              Click here to take our online survey and contribute to the study.
+            </a>
+            <p className="app__gratitude">
+              Thank you for your time and participation!
+            </p>
+          </div>
+        </div>
         <div className="app__profile">
           <img className="app__profile-img" src={profile_img} alt="" />
           <div className="app__profile-content">

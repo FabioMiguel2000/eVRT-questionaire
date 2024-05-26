@@ -31,7 +31,6 @@
 
 .app__profile {
   display: flex;
-
 }
 
 .app__profile .app__profile-img {
@@ -51,4 +50,14 @@
 }
 .app__profile-content .app__profile-institution {
   font-size: 0.8rem;
+}
+
+.app__survey-link {
+  margin: 1rem 0;
+  color: var(--secondary-color);
+  font-weight: 800;
+}
+
+.app__gratitude {
+  font-weight: 600;
 }
