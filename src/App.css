@@ -70,3 +70,23 @@
 .app__gratitude {
   font-weight: 600;
 }
+
+@media screen and (max-width: 768px) {
+  .app__wrapper {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .app__profile-content .app__profile-name {
+    font-size: 1rem;
+  }
+  .app__profile-content .app__profile-institution {
+    font-size: 0.7rem;
+  }
+  .app__profile-email {
+    font-size: 1rem;
+  }
+  .app__survey-link {
+    font-size: 0.9rem;
+  }
+}
