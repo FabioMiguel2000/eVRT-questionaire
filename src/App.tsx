@@ -4,6 +4,7 @@ import visual_test_example from "./assets/visual-test-example.png";
 import false_positives_1 from "./assets/false-positives-1.png";
 import false_positives_2 from "./assets/false-positives-2.png";
 import pixel_perfect_example from "./assets/pixel-perfect-example.png";
+import profile_img from "./assets/profile-img.png";
 
 function App() {
   return (
@@ -119,7 +120,15 @@ function App() {
             <img className="app__image" src={false_positives_2} alt="" />
           </div>
         </div>
-
+        <div className="app__profile">
+          <img className="app__profile-img" src={profile_img} alt="" />
+          <div className="app__profile-content">
+            <p className="app__profile-name">Fabio Huang</p>
+            <p className="app__profile-institution">
+              MS Student at Faculdade de Engenharia da Universidade do Porto
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
