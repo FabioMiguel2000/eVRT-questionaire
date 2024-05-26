@@ -1,6 +1,5 @@
 .app__wrapper {
   font-family: var(--font-base);
-  color: var(--black-color);
   margin: 4rem auto;
   width: 700px;
   display: flex;
@@ -16,6 +15,7 @@
 .app__wrapper h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: var(--black-color);
 }
 
 .app__content-wrapper {
@@ -26,6 +26,7 @@
 
 .app__content-wrapper p {
   line-height: 1.5rem;
+  color: var(--gray-color);
 }
 
 .app__profile {
