@@ -1,4 +1,11 @@
 import "./App.css";
+import spot_the_difference from './assets/spot-the-difference.png';
+import visual_test_example from './assets/visual-test-example.png';
+import false_positives_1 from './assets/false-positives-1.png';
+import false_positives_2 from './assets/false-positives-2.png';
+import pixel_perfect_example from './assets/pixel-perfect-example.png';
+
+
 
 function App() {
   return (
@@ -37,7 +44,7 @@ function App() {
             consistency across various platforms and devices.
           </p>
 
-          <img src="" alt="" />
+          <img src={visual_test_example} alt="" />
         </div>
         <div>
           <h2>Why can’t we test manually?</h2>
@@ -45,7 +52,7 @@ function App() {
             Manually testing experience is similar to the one of playing
             spot-the-difference:
           </p>
-          <img src="" alt="" />
+          <img src={spot_the_difference} alt="" />
           <p>
             It sure could be fun in the beginning but think of doing the the
             same photo repeatedly every time changes are made to the
@@ -80,15 +87,15 @@ function App() {
             compare it pixel by pixel with a screenshot from an earlier version,
             identifying any visual changes (Vesikkala, 2014; Tanno et al.,
             2020).
-            <img src="" alt="" />
+            <img src={pixel_perfect_example} alt="" />
             <p>
               This method is known as Pixel Perfect Testing or Snapshot Testing,
               and can easily result in many false positives. Encountering false
               positives during testing can disrupt the workflow and cause
               developers to lose trust in the test system (Vesikkala, 2014).
             </p>
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src={false_positives_1} alt="" />
+            <img src={false_positives_2} alt="" />
           </p>
         </div>
       </div>
