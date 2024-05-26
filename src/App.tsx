@@ -5,6 +5,7 @@ import false_positives_1 from "./assets/false-positives-1.png";
 import false_positives_2 from "./assets/false-positives-2.png";
 import pixel_perfect_example from "./assets/pixel-perfect-example.png";
 import profile_img from "./assets/profile-img.png";
+import { HiOutlineMail } from "react-icons/hi";
 
 function App() {
   return (
@@ -150,6 +151,12 @@ function App() {
               MS Student at Faculdade de Engenharia da Universidade do Porto
             </p>
           </div>
+          <a
+            href="mailto:up201806829@fe.up.pt"
+            className="app__profile-email"
+          >
+            <HiOutlineMail/>
+          </a>
         </div>
       </div>
     </div>
