@@ -142,7 +142,7 @@ function App() {
               testing of applications. Your responses will help understand the
               adoption, effectiveness, and perception of Visual Regression
               Testing (VRT) tools in the industry. This survey should take
-              approximately 5-10 minutes to complete. All responses will be kept
+              approximately 2-5 minutes to complete. All responses will be kept
               confidential and used only for academic purposes.
             </p>
             <a
@@ -159,7 +159,7 @@ function App() {
         <div className="app__profile">
           <img className="app__profile-img" src={profile_img} alt="" />
           <div className="app__profile-content">
-            <p className="app__profile-name">Fabio Huang</p>
+            <p className="app__profile-name">Fábio Huang</p>
             <p className="app__profile-institution">
               MS Student at Faculdade de Engenharia da Universidade do Porto
             </p>
