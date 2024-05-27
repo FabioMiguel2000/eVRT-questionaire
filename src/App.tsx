@@ -6,10 +6,12 @@ import false_positives_2 from "./assets/false-positives-2.png";
 import pixel_perfect_example from "./assets/pixel-perfect-example.png";
 import profile_img from "./assets/profile-img.png";
 import { HiOutlineMail } from "react-icons/hi";
+import SurveyPopup from './components/SurveyPopup';
 
 function App() {
   return (
     <div className="app">
+      <SurveyPopup />
       <div className="app__wrapper">
         <div>
           <h2>What is Visual Testing?</h2>
