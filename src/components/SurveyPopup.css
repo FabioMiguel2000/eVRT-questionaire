@@ -1,4 +1,5 @@
 .survey-popup {
+  font-family: var(--font-base);
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -18,10 +19,12 @@
 }
 
 .survey-popup-content h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .survey-popup-content p {
+  font-size: 0.9rem;
   margin-bottom: 0.5rem;
+  color: var(--gray-color);
 }
 
 .survey-popup-close {
