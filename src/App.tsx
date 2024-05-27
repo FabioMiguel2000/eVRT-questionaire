@@ -6,7 +6,7 @@ import false_positives_2 from "./assets/false-positives-2.png";
 import pixel_perfect_example from "./assets/pixel-perfect-example.png";
 import profile_img from "./assets/profile-img.png";
 import { HiOutlineMail } from "react-icons/hi";
-import SurveyPopup from './components/SurveyPopup';
+import SurveyPopup from "./components/SurveyPopup";
 
 function App() {
   return (
@@ -22,35 +22,33 @@ function App() {
               individuals, apps serve as essential tools for communication,
               entertainment, health management, and education, profoundly
               impacting daily life and how we interact with the world around us.
-              For businesses, applications are pivotal in driving innovation,
+              For businesses, <span>applications are pivotal in driving innovation,
               streamlining operations, enhancing customer engagement, and
-              opening new channels for revenue generation by enabling them to
+              opening new channels for revenue generation</span> by enabling them to
               reach a broader audience and operate more efficiently than ever
               before.
             </p>
             <p>
-              Against this backdrop, software testing is a critical practice in
+              Against this backdrop, <span>software testing is a critical practice in
               software development aimed at evaluating a program’s attributes
-              and ensuring it meets the required results (Mudholkar et al.,
-              2010). Effective software testing helps maintain customer trust
-              protects brand reputation. It also reduces the cost of development
-              by catching issues early in the lifecycle (Boehm and Basili,
-              2001). Thus, as applications increasingly influence our daily
-              lives and business strategies, software testing is crucial in
-              delivering reliable and effective software solutions.
+              and ensuring it meets the required results</span>. Effective software
+              testing helps maintain customer trust and protect brand reputation.
+              It also reduces the cost of development by catching issues early
+              in the lifecycle. Thus, as applications increasingly influence
+              our daily lives and business strategies, <span>software testing is
+              crucial in delivering reliable and effective software solutions</span>.
             </p>
             <p>
               In the rapidly evolving landscape of software development, where
-              companies often release new updates frequently, and make regular
+              <span> companies often release new updates frequently, and make regular
               changes and modifications to their codebase, may introduce issues
               that can disrupt the functionality of existing features and
-              potentially harm the user experience. Therefore ensuring the
+              potentially harm the user experience</span>. Thereforeensuring the
               visual integrity of web applications and software interfaces has
-              become paramount (Memon, 2002). Visual Testing, a subset of
-              software testing that focuses on identifying unintended visual
-              modifications (Vesikkala, 2014), plays a critical role in
-              maintaining the user experience and interface consistency across
-              various platforms and devices.
+              become paramount. Visual Testing, a subset of software testing
+              that focuses on identifying unintended visual modifications, <span> plays
+              a critical role in maintaining the user experience and interface
+              consistency across various platforms and devices</span>.
             </p>
             <img className="app__image" src={visual_test_example} alt="" />
           </div>
@@ -67,16 +65,19 @@ function App() {
               It sure could be fun in the beginning but think of doing the the
               same photo repeatedly every time changes are made to the
               application. To give you a better understanding of how tedious
-              this processcould be in real life, the number of combinations of
+              this process could be in real life, the number of combinations of
               test that could be needed is:
             </p>
-            <p>
-              Browsers x Operating Systems x Screen Resolutions x App Screens x
-              App States
+            <p className="app__content-combinations">
+              <span>
+                Browsers x Operating Systems x <br /> 
+                Screen Resolutions x App Screens x
+                App States
+              </span>
             </p>
             <p>
               For this large number of combinations to be checked manually
-              eveytime a commit is done, is unrealistic, it is repetitive, prone
+              every time a commit is done, is unrealistic, it is repetitive, prone
               to mistakes, and sometimes subjective in determining failures.
             </p>
           </div>
@@ -86,38 +87,48 @@ function App() {
           <h2>Visual Regression Testing</h2>
           <div className="app__content-wrapper">
             <p>
-              Visual Regression Testing (VRT) aims at automating the tedious
+              Visual Regression Testing (VRT) aims at <span>automating the tedious
               process of manual testing the visuals of the applications
-              mentioned above. It aims at identifying an application’s
-              presentation defects and works by identifying the changes on
-              screenshots of the application commit-to-commit. It differs from
-              traditional functional testing, as it aims to answer the question
+              mentioned above</span>. It aims at identifying an application’s
+              presentation defects and works by <span>identifying the changes on
+              screenshots of the application commit-to-commit</span>. It differs from
+              traditional functional testing, as <span>it aims to answer the question 
               “Does our product look correct” by detecting visual bugs which are
-              rendering issues, instead of “Does our product behave correctly”
+              rendering issues</span>, instead of “Does our product behave correctly” 
               which detects behavioural issues.
             </p>
 
             <p>
-              Some of the things that Visual Regression Testing aims are:Prevent
-              Visual Bugs: Catch visual errors early before they reach your
-              users. Automate UI Testing: Save time and resources by automating
-              the visual inspection process. Ensure Consistency: Maintain a
-              consistent look and feel across all devices and browsers.
+              Some of the things that Visual Regression Testing aims to achieve
+              are:
             </p>
+            <ul>
+              <li>
+                <span>Prevent Visual Faults:</span> Detect visual errors early to prevent them
+                from impacting your users.
+              </li>
+              <li>
+                <span>Automated Visual Testing:</span> Save time and resources by automating
+                the visual checking process.
+              </li>
+              <li>
+                <span>Ensure Consistency:</span> Maintain a uniform appearance across all
+                devices and browsers.
+              </li>
+            </ul>
 
             <p>
               A common approach/technique used by most of VRT tools, is to take
               a screenshot of the application as it currently appears and
-              compare it pixel by pixel with a screenshot from an earlier
-              version, identifying any visual changes (Vesikkala, 2014; Tanno et
-              al., 2020).
+              <span> compare it pixel by pixel with a screenshot from an earlier
+              version, identifying any visual changes </span>.
             </p>
             <img className="app__image" src={pixel_perfect_example} alt="" />
             <p>
               This method is known as Pixel Perfect Testing or Snapshot Testing,
               and can easily result in many false positives. Encountering false
               positives during testing can disrupt the workflow and cause
-              developers to lose trust in the test system (Vesikkala, 2014).
+              developers to lose trust in the test system.
             </p>
             <img className="app__image" src={false_positives_1} alt="" />
             <img className="app__image" src={false_positives_2} alt="" />
@@ -153,11 +164,8 @@ function App() {
               MS Student at Faculdade de Engenharia da Universidade do Porto
             </p>
           </div>
-          <a
-            href="mailto:up201806829@fe.up.pt"
-            className="app__profile-email"
-          >
-            <HiOutlineMail/>
+          <a href="mailto:up201806829@fe.up.pt" className="app__profile-email">
+            <HiOutlineMail />
           </a>
         </div>
       </div>

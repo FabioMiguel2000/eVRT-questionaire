@@ -71,6 +71,30 @@
   font-weight: 600;
 }
 
+.app__content-wrapper ul {
+  list-style-type: square;
+  margin-left: 1.5rem;
+  line-height: 1.5rem;
+  color: var(--gray-color);
+}
+
+.app__content-wrapper ul li {
+  margin-bottom: 0.5rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.app__content-combinations {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+
 @media screen and (max-width: 768px) {
   .app__wrapper {
     width: 90%;

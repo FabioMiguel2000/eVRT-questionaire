@@ -19,3 +19,8 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+span {
+  color: var(--secondary-color);
+  font-weight: 500;
+}
