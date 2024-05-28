@@ -62,7 +62,7 @@ function App() {
             </p>
             <img className="app__image" src={spot_the_difference} alt="" />
             <p>
-              It sure could be fun in the beginning but think of doing the the
+              It sure could be fun in the beginning but think of doing this to the 
               same photo repeatedly every time changes are made to the
               application. To give you a better understanding of how tedious
               this process could be in real life, the number of combinations of
