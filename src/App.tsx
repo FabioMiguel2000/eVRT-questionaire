@@ -5,6 +5,8 @@ import false_positives_1 from "./assets/false-positives-1.png";
 import false_positives_2 from "./assets/false-positives-2.png";
 import pixel_perfect_example from "./assets/pixel-perfect-example.png";
 import profile_img from "./assets/profile-img.png";
+import example_software_failure from "./assets/example-software-failure.png";
+
 import { HiOutlineMail } from "react-icons/hi";
 import SurveyPopup from "./components/SurveyPopup";
 
@@ -48,6 +50,8 @@ function App() {
               </span>
               .
             </p>
+            <img src={example_software_failure} alt="" />
+
             <p>
               In the rapidly evolving landscape of software development, where
               <span>
