@@ -169,11 +169,11 @@ function App() {
             <img className="app__image" src={false_positives_1} alt="" />
             <img className="app__image" src={false_positives_2} alt="" />
             <p>
-              Due to these issues, companies and developers are still reluctant
-              to adopt VRT tools and prefer to test manually. However, as time
-              goes by, new tools and techniques are being developed to reduce
-              the number of false positives and make the process more reliable.
-              However, the adoption of these tools is still low...
+              Due to these issues, companies and developers are still
+              reluctant to adopt VRT tools, preferring manual testing instead.
+              However, over time, new tools and techniques are being developed
+              to reduce the number of false positives and increase reliability.
+              Despite these advancements, the adoption of VRT tools remains low.
             </p>
             <iframe
               className="app__video"
