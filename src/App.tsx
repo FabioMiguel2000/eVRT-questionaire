@@ -61,7 +61,7 @@ function App() {
                 issues that can disrupt the functionality of existing features
                 and potentially harm the user experience
               </span>
-              . Thereforeensuring the visual integrity of web applications and
+              . Therefore ensuring the visual integrity of web applications and
               software interfaces has become paramount. Visual Testing, a subset
               of software testing that focuses on identifying unintended visual
               modifications,{" "}
