@@ -96,6 +96,7 @@
 }
 
 .app__video {
+  border-radius: 10px;
   width: 100%;
   height: 500px;
   margin: 20px 0;
@@ -124,5 +125,15 @@ img {
   }
   .app__survey-link {
     font-size: 0.9rem;
+  }
+
+  .app__video {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .app__video {
+    height: 300px;
   }
 }
