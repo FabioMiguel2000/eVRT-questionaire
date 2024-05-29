@@ -175,6 +175,15 @@ function App() {
               the number of false positives and make the process more reliable.
               However, the adoption of these tools is still low...
             </p>
+            <iframe
+              className="app__video"
+              width="560"
+              height="500"
+              src="https://www.youtube.com/embed/0BzEifaoYuc"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
         <div>
