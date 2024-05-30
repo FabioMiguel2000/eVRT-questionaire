@@ -1,0 +1,44 @@
+.app__profile {
+  display: flex;
+}
+
+.app__profile .app__profile-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.app__profile .app__profile-content {
+  margin: auto 0;
+  margin-left: 1rem;
+}
+
+.app__profile-content .app__profile-name {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.app__profile-content .app__profile-institution {
+  font-size: 0.8rem;
+  color: var(--gray-color);
+}
+
+.app__profile-email {
+  margin-left: auto;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .app__profile-content .app__profile-name {
+    font-size: 1rem;
+  }
+  .app__profile-content .app__profile-institution {
+    font-size: 0.7rem;
+  }
+  .app__profile-email {
+    font-size: 1rem;
+  }
+}
+

@@ -4,11 +4,10 @@ import visual_test_example from "./assets/visual-test-example.png";
 import false_positives_1 from "./assets/false-positives-1.png";
 import false_positives_2 from "./assets/false-positives-2.png";
 import pixel_perfect_example from "./assets/pixel-perfect-example.png";
-import profile_img from "./assets/profile-img.png";
 import example_software_failure from "./assets/example-software-failure.png";
 
-import { HiOutlineMail } from "react-icons/hi";
-import SurveyPopup from "./components/SurveyPopup";
+import SurveyPopup from "./components/SurveyPopup/SurveyPopup";
+import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
@@ -208,18 +207,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="app__profile">
-          <img className="app__profile-img" src={profile_img} alt="" />
-          <div className="app__profile-content">
-            <p className="app__profile-name">Fábio Huang</p>
-            <p className="app__profile-institution">
-              MS Student at Faculdade de Engenharia da Universidade do Porto
-            </p>
-          </div>
-          <a href="mailto:up201806829@fe.up.pt" className="app__profile-email">
-            <HiOutlineMail />
-          </a>
-        </div>
+        <Profile />
       </div>
     </div>
   );
