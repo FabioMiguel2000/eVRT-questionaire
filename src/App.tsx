@@ -5,6 +5,7 @@ import false_positives_1 from "./assets/false-positives-1.png";
 import false_positives_2 from "./assets/false-positives-2.png";
 import pixel_perfect_example from "./assets/pixel-perfect-example.png";
 import example_software_failure from "./assets/example-software-failure.png";
+import playwright_vt from "./assets/playwright-VT.gif";
 
 import SurveyPopup from "./components/SurveyPopup/SurveyPopup";
 import Profile from "./components/Profile/Profile";
@@ -130,7 +131,7 @@ function App() {
               , instead of “Does our product behave correctly” which detects
               behavioural issues.
             </p>
-
+            <img src={playwright_vt} alt="" />
             <p>
               Some of the things that Visual Regression Testing aims to achieve
               are:
@@ -197,8 +198,12 @@ function App() {
               testing of applications. Your responses will help understand the
               adoption, effectiveness, and perception of Visual Regression
               Testing (VRT) tools in the industry. This survey should take
-              approximately 2-5 minutes to complete. All responses will be kept
-              confidential and used only for academic purposes.
+              approximately 2-5 minutes to complete.{" "}
+              <span>
+                {" "}
+                All responses will be kept confidential and used only for
+                academic purposes.
+              </span>
             </p>
             <a
               className="app__survey-link"

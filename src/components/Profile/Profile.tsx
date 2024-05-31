@@ -10,7 +10,7 @@ const Profile = () => {
       <div className="app__profile-content">
         <p className="app__profile-name">Fábio Huang</p>
         <p className="app__profile-institution">
-          MS Student at Faculdade de Engenharia da Universidade do Porto
+          MS Student at Faculdade de Engenharia da Universidade do Porto (FEUP)
         </p>
       </div>
       <a href="mailto:up201806829@fe.up.pt" className="app__profile-email">
