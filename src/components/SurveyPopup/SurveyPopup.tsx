@@ -18,7 +18,7 @@ const SurveyPopup = () => {
           <h2>Have a moment?</h2>
           <p>
             Participate in our study on Visual Regression Testing to share your
-            thoughts, and you'll get a chance to receive a gift card.
+            thoughts, and help improve the existing tools and techniques.
           </p>
           <a
             className="survey-popup-link"
